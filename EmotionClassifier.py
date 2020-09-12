@@ -38,8 +38,8 @@ batch_size=32
 #data_dir='E:/UoB/Project/Databases/all_expressions/ck+ext'
 #use above path when all files are in a single directory
 #use below path when training and testing data are seperate
-train_data_dir='E:/UoB/Project/Databases/all_expressions/subsetsck+/testonset7'
-valid_data_dir='E:/UoB/Project/Databases/all_expressions/subsetsck+/set7'
+train_data_dir='E:/UoB/Project/Databases/all_expressions/subsetsck+/testonset6'
+valid_data_dir='E:/UoB/Project/Databases/all_expressions/subsetsck+/set6'
 
 #https://keras.io/api/preprocessing/image/#imagedatagenerator-class
 train_datagen=ImageDataGenerator(rotation_range=30, 
@@ -85,7 +85,7 @@ train_samples=len(train_filenames)
 valid_samples=len(valid_filenames)
 epochs=666
 learning_rate=0.001
-file_name='EmotionDetector_teston7-6.h5'
+file_name='EmotionDetector_teston6-1.h5'
 ###################################################
 #the model
 ###################################################
